@@ -8,7 +8,7 @@
 
 ### Code Explain
 
-you need create your own credential to access Marvel server. 
+You'll need create your own credential to access Marvel server. 
 
 1. The project adopts the MVVM-C (Model-View-ViewModel-Coordinator) architecture.
 
