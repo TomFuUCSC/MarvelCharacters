@@ -2,8 +2,7 @@
 
 |  |  |  |
 | - | - | - |
-| <img src="Screenshots/SCR_01.png" height="300"> | <img src="Screenshots/SCR_02.png" height="300"> |  <img src="Screenshots/SCR_03.gif" height="300">  |
-
+| <img src="Screenshots/SCR_01.png" width="300"> | <img src="Screenshots/SCR_02.png" width="300"> | <img src="Screenshots/SCR_03.gif" width="300"> |
 
 
 ### Code Explain
