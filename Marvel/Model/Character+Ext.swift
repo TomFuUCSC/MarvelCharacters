@@ -25,7 +25,7 @@ extension Character {
     static let noImageURL = URL(fileURLWithPath: Bundle.main.path(forResource: "noImage", ofType: "jpg")!)
 
     static var mock: [Character] {
-        let numbers = Array(1011334 ... 1011334 + 10)
+        let numbers = Array(0 ... 19)
         let thumbnail = Character.Thumbnail(
             path: "http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784",
             fileExtension: "jpg"

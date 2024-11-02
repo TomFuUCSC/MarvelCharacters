@@ -8,7 +8,7 @@ struct Detail: View {
     @StateObject var events = GridModel(.events)
     @State var comicCount: Int?
     @State var eventCount: Int?
-    
+
     let character: Character
     @State private var mode: TabMode = .comics
 
@@ -35,7 +35,7 @@ struct Detail: View {
             async let comic = comics.fetch()
             async let event = events.fetch()
             do {
-                try await (comic, event)
+                try await(comic, event)
                 comicCount = comics.total
                 eventCount = events.total
             } catch {

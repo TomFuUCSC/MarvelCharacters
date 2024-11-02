@@ -22,7 +22,7 @@ struct MarvelGrid: View {
         self.model = model
         self.titleShown = titleShown
         self.tappable = tappable
-        self.hasFetched = !tappable
+        hasFetched = !tappable
     }
 
     var body: some View {
@@ -32,7 +32,9 @@ struct MarvelGrid: View {
                     GridCell(character: character, titleShown: titleShown)
                         .clipped()
                         .onAppear {
-                            model.loadMoreIfCan(character)
+                            Task {
+                                await model.loadMoreIfCan(character)
+                            }
                         }
                         .disabled(!tappable)
                         .onTapGesture {

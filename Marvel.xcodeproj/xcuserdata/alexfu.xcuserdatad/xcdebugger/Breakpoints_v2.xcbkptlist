@@ -7,38 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "4028F6C7-ECB7-4807-8B13-D87A0E75DB1A"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SpaceTests/SpaceTests.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "testModelFetch()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "47DFB83F-07AC-4A04-BC8C-595B6EB25772"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SpaceTests/SpaceTests.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "testModelFetch()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "844FC1E6-2A39-47A5-8DA4-CE8C064C3871"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -55,108 +23,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "11B1182A-9F7C-46BB-B3E0-D99282EFA54A"
+            uuid = "D910E644-9B7B-4CA8-820A-52160D63184C"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Marvel/Model/GridModel.swift"
+            filePath = "UITests/UITests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "29"
             endingLineNumber = "29"
-            landmarkName = "fetch(_:client:)"
+            landmarkName = "testNavigateToDetailView()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "11B1182A-9F7C-46BB-B3E0-D99282EFA54A - fd4f5aae38af10e3"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for Marvel.GridModel.fetch(_: Swift.Int, client: Marvel.MarvelProtocol) async throws -&gt; ()"
-                  moduleName = "Marvel"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/alexfu/MyCode/Marvel/Marvel/Model/GridModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29">
-               </Location>
-               <Location
-                  uuid = "11B1182A-9F7C-46BB-B3E0-D99282EFA54A - 7da605504d43aee2"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(4) suspend resume partial function for Marvel.GridModel.fetch(_: Swift.Int, client: Marvel.MarvelProtocol) async throws -&gt; ()"
-                  moduleName = "Marvel"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/alexfu/MyCode/Marvel/Marvel/Model/GridModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "3047C862-54EA-49B2-9921-40C9E0C766FA"
-            shouldBeEnabled = "Yes"
+            uuid = "E00D33A0-1CEE-4A47-A501-6AA3A7F41D07"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Marvel/Model/GridModel.swift"
+            filePath = "UITests/UITests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
-            landmarkName = "fetch(_:client:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "3047C862-54EA-49B2-9921-40C9E0C766FA - fd4f5aae38af10ad"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for Marvel.GridModel.fetch(_: Swift.Int, client: Marvel.MarvelProtocol) async throws -&gt; ()"
-                  moduleName = "Marvel"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/alexfu/MyCode/Marvel/Marvel/Model/GridModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31">
-               </Location>
-               <Location
-                  uuid = "3047C862-54EA-49B2-9921-40C9E0C766FA - 7da605504d43aeac"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(4) suspend resume partial function for Marvel.GridModel.fetch(_: Swift.Int, client: Marvel.MarvelProtocol) async throws -&gt; ()"
-                  moduleName = "Marvel"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/alexfu/MyCode/Marvel/Marvel/Model/GridModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "6BF08D78-2588-4C57-A5F8-A0AE017CED47"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Marvel/Client/Marvel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
-            landmarkName = "getCredentials()"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "testNavigateToDetailView()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

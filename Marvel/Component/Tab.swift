@@ -44,6 +44,7 @@ struct Tab: View {
             }
         }
     }
+
     private func getTitle(for tab: TabMode) -> String {
         if let count = tab.isComics ? comicsCount : eventsCount {
             return "\(count)"

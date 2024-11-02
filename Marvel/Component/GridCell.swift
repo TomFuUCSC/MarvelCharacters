@@ -1,6 +1,6 @@
+import NukeUI
 // Author: Tom Fu
 import SwiftUI
-import NukeUI
 
 struct GridCell: View {
     @Environment(\.colorScheme) var colorScheme
@@ -27,7 +27,6 @@ struct GridCell: View {
                             .fill(colorScheme == .dark ? .black : .white)
                         ProgressView()
                     }
-
                 }
             }
             .frame(width: Constant.gridWidth, height: Constant.gridWidth)
